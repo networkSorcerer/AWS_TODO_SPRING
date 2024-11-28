@@ -50,7 +50,7 @@ dependencies {
 
     // JAXB 라이브러리 (호환 버전)
     implementation 'jakarta.xml.bind:jakarta.xml.bind-api:3.0.1'
-    implementation 'org.glassfish.jaxb:jaxsb-runtime:3.0.1'
+    //implementation 'org.glassfish.jaxb:jaxsb-runtime:3.0.1'
 
     // Spring Security
     implementation 'org.springframework.boot:spring-boot-starter-security'
