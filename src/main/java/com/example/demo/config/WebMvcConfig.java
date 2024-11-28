@@ -13,7 +13,7 @@ public class WebMvcConfig implements WebMvcConfigurer{
 		//모든 경로에 대해
 		registry.addMapping("/**")
 			//Origin 이 http:localhost:3000에 대해
-		.allowedOrigins("http://localhost:3000")
+		.allowedOrigins("http://52.78.174.253:3000")
 		//GET , POST, PUT , PATCH, DELETE, OPTIONS 메서드를 활용한다
 		.allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS")
 		.allowedHeaders("*")
